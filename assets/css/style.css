@@ -1,0 +1,275 @@
+
+/* Google Font Link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Default Css  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pt-100{
+    padding-top: 70px;
+}
+
+.pb-100{
+    padding-bottom: 70px;
+}
+/* Header Section Start Here  */
+
+
+.header-section {
+	border-bottom: 1px solid #ddd;
+	background: #fff ;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.navbar-brand {
+	padding: 0 !important;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+
+.navbar-brand {
+	font-size: 35px;
+	font-weight: 600;
+	color: #444 !important;
+}
+.nav-link {
+	font-size: 1rem;
+}
+
+.nav-link i {
+	display: block;
+	text-align: center;
+}
+
+.nav-link:hover {
+	background: #4AB0C1 !important;
+	color: #fff !important;
+}
+
+/* Header Section End Here  */
+
+/* Banner Section Css Start Here  */
+.banner-section {
+	background: #FFD238;
+	width: 100%;
+	height: 80vh;
+	margin-top: 56px;
+}
+.banner-right {
+	margin-top: 80px;
+	text-align: center;
+}
+.banner-right img {
+	width: 70%;
+	transform: rotate(35deg);
+}
+
+.banner-left p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.banner-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.main {
+	border: 0;
+	padding: 0.7rem 1.8rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 20px;
+	border-radius: 23px;
+}
+
+/* Para Site Start Here  */
+.para-low {
+	background: #F8C667;
+	padding: 50px 0;
+}
+
+.para-content h4 {
+	text-transform: capitalize;
+	font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.para-low .main {
+	margin-top: 0;
+}
+.para-content p {
+	font-size: 1rem;
+	line-height: 1.6;
+	text-indent: 55px;
+	text-align: justify;
+}
+
+
+.download-content h2 {
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #fff;
+	font-size: 2rem;
+}
+
+/* Para Site End Here  */
+
+/* Headphone Gallery Section Start Here  */
+.title {
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.headphone-img {
+	background: #FFD238;
+	position: relative;
+}
+.headphone-img img {
+	width: 100%;
+}
+.headphone-content {
+	padding: 18px 34px;
+}
+
+.headphone-img {
+	background: #F8C667;
+}
+
+.hedphone-btn {
+	position: absolute;
+	left: 35px;
+	top: 35px;
+}
+
+.hedphone-btn {
+	padding: 12px 25px;
+	border: 0;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+	border-radius: 25px;
+	background: #F8C667;
+	color: #615c5ced;
+    text-transform: uppercase;
+}
+.title i {
+	color: #FCCB1A;
+	font-size: 36px;
+}
+.headphone-content h4 {
+    text-transform: uppercase;
+}
+.headphone-content p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+}
+.newhead-content img {
+	width: 100%;
+	margin-bottom: 27px;
+}
+/* Headphone Gallery Section End Here  */
+
+/* Why like it Section Start Here  */
+
+.why-like {
+	background: #F8C667;
+	padding: 60px 0;
+	margin-bottom: 50px;
+}
+.why-like .main {
+	margin-top: 0;
+}
+.why-content h2 {
+	font-size: 2.4rem;
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.why-content h3 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+
+.why-title {
+	color: #FFD238;
+	font-size: 5rem;
+	opacity: 0.6;
+}
+
+.why-buy-con {
+	position: relative;
+}
+
+  
+.why-para {
+	position: absolute;
+	left: 50%;
+	top: 81%;
+	font-size: 23px;
+	width: 100%;
+	height: 100%;
+	transform: translate(-50%,-50%);
+	text-transform: uppercase;
+	font-weight: 500;
+	opacity: 0.8;
+}
+
+
+/* Why like it Section End Here  */
+
+/* Footer section start Here  */
+.footer {
+	background: #ffd238;
+	padding: 20px 0px;
+}
+.foot-con p {
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.foot-con p span {
+	color: crimson;
+}
+
+
+/* Footer section End Here  */
